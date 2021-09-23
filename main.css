@@ -1,4 +1,26 @@
+:root {
+    --color0: #cfc3d2;
+    --color1: #140f16;
+    --color2: #cfc3d2;
+    --color3: #201922;
+    --color4: #d453e7;
+    --color5: #2a212c;
+    --color6: #db76ed;
+    --color7: #3d3140;
+    --color8: #6dbe45;
+    --color9: #57475b;
+    --color10: #6fb4ec;
+    --color11: #78627c;
+    --color12: #b59455;
+    --color13: #9d84a3;
+    --color14: #e37c92;
+    --color15: #c0afc3;
+    --color16: #2eafa3;
+    --color17: #e7e0e8;
+    --color18: #5da4da;
+}
+
 body {
-    background-color: black;
-    color: white;
+    background-color: var(--color1);
+    color: var(--color2);
 }
