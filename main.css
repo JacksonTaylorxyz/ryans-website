@@ -1,3 +1,6 @@
+/*
+ * This colorscheme was generated from https://terminal.sexy
+ */
 :root {
     --color0: #cfc3d2;
     --color1: #140f16;
@@ -22,5 +25,48 @@
 
 body {
     background-color: var(--color1);
+    font-family: sans-serif;
     color: var(--color2);
+    padding: 1em;
+}
+
+#title_area{
+    width: 100%;
+    font-weight: Bold;
+    color: var(--color3);
+}
+
+p {
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color6);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--color5);
+}
+
+#navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    font-size: 150%;
+}
+
+#navigation_bar li {
+    display: inline;
+}
+
+#navigation_bar li a {
+    padding: 1%;
+    padding-left: 0%;
 }
